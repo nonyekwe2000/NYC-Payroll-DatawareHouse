@@ -1,0 +1,9 @@
+{
+	"name": "nycpayrolldatafactory",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "698c0898-7cd6-4334-80cf-3447c46acd5a",
+		"tenantId": "8a322895-9b90-42d6-bc88-1816f5410eb6"
+	}
+}

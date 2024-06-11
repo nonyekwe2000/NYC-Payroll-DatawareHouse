@@ -1,0 +1,30 @@
+{
+	"name": "weekly_trigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "nycpayrollpipeline",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Week",
+				"interval": 1,
+				"startTime": "2024-06-11T03:06:00",
+				"endTime": "2024-07-01T03:06:00",
+				"timeZone": "Central Standard Time",
+				"schedule": {
+					"weekDays": [
+						"Monday"
+					]
+				}
+			}
+		}
+	}
+}
